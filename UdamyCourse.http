@@ -1,0 +1,6 @@
+@UdamyCourse_HostAddress = http://localhost:5189
+
+GET {{UdamyCourse_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
