@@ -54,8 +54,7 @@
               "RelativeToolTip": "Model\\DTOs\\AddRegionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T16:55:34.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T16:55:34.59Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Model\\DTOs\\RegionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T16:41:34.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T16:41:34.144Z"
             },
             {
               "$type": "Document",
@@ -76,9 +74,9 @@
               "Title": "RegionsController.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegionsController.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\RegionsController.cs",
-              "RelativeToolTip": "Controllers\\RegionsController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAuwG4AAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\RegionsController.cs*",
+              "RelativeToolTip": "Controllers\\RegionsController.cs*",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAuwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T16:13:40.962Z",
               "EditorCaption": ""
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Model\\Domain\\Region.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T15:57:58.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T15:57:58.451Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "Data\\DataBaseContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:11:33.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T09:11:33.357Z"
             },
             {
               "$type": "Document",

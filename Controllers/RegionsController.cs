@@ -110,5 +110,22 @@ namespace UdamyCourse.Controllers
 
             return Ok(regionDto);
         }
+
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteRegion(int id)
+        {
+            var region = _dbContext.Regions.FirstOrDefault(r => r.Id == id);
+            if (region == null)
+            {
+                return NotFound();
+            }
+
+            _dbContext.Regions.Remove(region);
+            _dbContext.SaveChanges();
+            return NoContent();
+        }
+
+
     }
 }

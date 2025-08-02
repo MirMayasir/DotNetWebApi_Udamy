@@ -89,6 +89,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "UdamyCourse.Controllers.RegionsController",
+    "Method": "DeleteRegion",
+    "RelativePath": "api/Regions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UdamyCourse.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
