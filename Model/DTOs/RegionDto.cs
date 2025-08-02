@@ -1,6 +1,6 @@
-﻿namespace UdamyCourse.Model.Domain
+﻿namespace UdamyCourse.Model.DTOs
 {
-    public class Region
+    public class RegionDto
     {
         public int Id { get; set; }
         public string Code { get; set; }

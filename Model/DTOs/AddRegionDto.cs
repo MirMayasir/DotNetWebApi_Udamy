@@ -1,8 +1,7 @@
-﻿namespace UdamyCourse.Model.Domain
+﻿namespace UdamyCourse.Model.DTOs
 {
-    public class Region
+    public class AddRegionDto
     {
-        public int Id { get; set; }
         public string Code { get; set; }
         public string Name { get; set; }
         public string? RegionImageUrl { get; set; }
