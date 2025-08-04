@@ -90,7 +90,7 @@
   },
   {
     "ContainingType": "UdamyCourse.Controllers.RegionsController",
-    "Method": "DeleteRegion",
+    "Method": "deleteRegion",
     "RelativePath": "api/Regions/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,

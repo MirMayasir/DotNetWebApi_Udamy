@@ -1,6 +1,8 @@
-
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using UdamyCourse.Data;
+using UdamyCourse.Mappings;
+using UdamyCourse.Repositories;
 
 namespace UdamyCourse
 {
@@ -18,6 +20,8 @@ namespace UdamyCourse
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<DataBaseContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<IRegionRepository, SQLRegionRepositoty>();
+            builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
             var app = builder.Build();
 
