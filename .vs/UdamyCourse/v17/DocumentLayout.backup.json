@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\repositories\\sqlregionrepositoty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:repositories\\sqlregionrepositoty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\addregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,37 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SQLRegionRepositoty.cs",
-              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\SQLRegionRepositoty.cs",
-              "RelativeDocumentMoniker": "Repositories\\SQLRegionRepositoty.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\SQLRegionRepositoty.cs",
-              "RelativeToolTip": "Repositories\\SQLRegionRepositoty.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBQAAAAJAAAAAAAAAA==",
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Mappings\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "Mappings\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Mappings\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "Mappings\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T08:49:20.73Z",
+              "WhenOpened": "2025-08-04T09:48:13.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRegionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\IRegionRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IRegionRepository.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\IRegionRepository.cs",
-              "RelativeToolTip": "Repositories\\IRegionRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAASwA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T08:47:48.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RegionDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\RegionDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\RegionDto.cs",
@@ -96,16 +87,16 @@
               "Title": "RegionsController.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegionsController.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\RegionsController.cs*",
-              "RelativeToolTip": "Controllers\\RegionsController.cs*",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAMwIEAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\RegionsController.cs",
+              "RelativeToolTip": "Controllers\\RegionsController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAkwFcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T16:13:40.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Region.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Region.cs",
               "RelativeDocumentMoniker": "Model\\Domain\\Region.cs",
@@ -117,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "20250801092525_first migration.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Migrations\\20250801092525_first migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20250801092525_first migration.cs",
@@ -129,20 +120,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:22:30.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T09:22:30.032Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IRegionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\IRegionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRegionRepository.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\IRegionRepository.cs",
+              "RelativeToolTip": "Repositories\\IRegionRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAASwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T08:47:48.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLRegionRepositoty.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\SQLRegionRepositoty.cs",
+              "RelativeDocumentMoniker": "Repositories\\SQLRegionRepositoty.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\SQLRegionRepositoty.cs",
+              "RelativeToolTip": "Repositories\\SQLRegionRepositoty.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T08:49:20.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AddRegionDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\AddRegionDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\AddRegionDto.cs",
@@ -154,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DataBaseContext.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Data\\DataBaseContext.cs",
               "RelativeDocumentMoniker": "Data\\DataBaseContext.cs",
@@ -166,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Walk.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Walk.cs",
               "RelativeDocumentMoniker": "Model\\Domain\\Walk.cs",

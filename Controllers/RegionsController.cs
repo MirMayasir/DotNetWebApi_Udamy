@@ -73,22 +73,19 @@ namespace UdamyCourse.Controllers
         public async Task<IActionResult> AddRegion([FromBody] AddRegionDto addRegionDto)
         {
 
-            var region = new Region
-            {
-                Code = addRegionDto.Code,
-                Name = addRegionDto.Name,
-                RegionImageUrl = addRegionDto.RegionImageUrl
-            };
+            var region = _mapper.Map<Region>(addRegionDto);
 
             region = await _regionRepository.CreateRegionAsync(region);
 
-            var regionDto = new RegionDto()
-            {
-                Id = region.Id,
-                Code = region.Code,
-                Name = region.Name,
-                RegionImageUrl = region.RegionImageUrl
-            };
+            //var regionDto = new RegionDto()
+            //{
+            //    Id = region.Id,
+            //    Code = region.Code,
+            //    Name = region.Name,
+            //    RegionImageUrl = region.RegionImageUrl
+            //};
+
+            var regionDto = _mapper.Map<RegionDto>(region); 
 
             return CreatedAtAction(nameof(GetRegionById), new { id = region.Id }, regionDto);
 
@@ -99,13 +96,15 @@ namespace UdamyCourse.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateRegion(int id, [FromBody] AddRegionDto addRegionDto)
         {
-            var region = new Region
-            {
-                Code = addRegionDto.Code,
-                Name= addRegionDto.Name,
-                RegionImageUrl = addRegionDto.RegionImageUrl
+            //var region = new Region
+            //{
+            //    Code = addRegionDto.Code,
+            //    Name= addRegionDto.Name,
+            //    RegionImageUrl = addRegionDto.RegionImageUrl
 
-            };
+            //};
+
+            var region = _mapper.Map<Region>(addRegionDto);
 
             region = await _regionRepository.UpdateReginAsync(region, id);
 
@@ -115,13 +114,15 @@ namespace UdamyCourse.Controllers
                 return NotFound();
             }
 
-            var regionDto = new RegionDto()
-            {
-                Id = region.Id,
-                Code = region.Code,
-                Name = region.Name,
-                RegionImageUrl = region.RegionImageUrl
-            };
+            //var regionDto = new RegionDto()
+            //{
+            //    Id = region.Id,
+            //    Code = region.Code,
+            //    Name = region.Name,
+            //    RegionImageUrl = region.RegionImageUrl
+            //};
+
+            var regionDto = _mapper.Map<RegionDto>(region);
 
             return Ok(regionDto);
         }

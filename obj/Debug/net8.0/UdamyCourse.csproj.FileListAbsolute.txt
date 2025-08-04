@@ -341,3 +341,5 @@ C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\UdamyCourse.pdb
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\UdamyCourse.genruntimeconfig.cache
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\ref\UdamyCourse.dll
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\UdamyCourse.sourcelink.json
+C:\Users\mirma\Desktop\UdamyCourse\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\mirma\Desktop\UdamyCourse\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

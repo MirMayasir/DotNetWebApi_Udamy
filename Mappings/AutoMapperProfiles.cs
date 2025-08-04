@@ -8,7 +8,8 @@ namespace UdamyCourse.Mappings
     {
         public AutoMapperProfiles()
         {
-            CreateMap<Region, AddRegionDto>().ReverseMap();
+            CreateMap<Region, RegionDto>().ReverseMap();
+            CreateMap<AddRegionDto, Region>().ReverseMap();
         }
     }
 }
