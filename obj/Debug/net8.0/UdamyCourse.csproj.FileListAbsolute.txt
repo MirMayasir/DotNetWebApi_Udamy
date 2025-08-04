@@ -333,7 +333,6 @@ C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\UdamyCou.B39D16E0.Up2Date
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\UdamyCourse.dll
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\refint\UdamyCourse.dll
@@ -343,3 +342,4 @@ C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\ref\UdamyCourse.dll
 C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\UdamyCourse.sourcelink.json
 C:\Users\mirma\Desktop\UdamyCourse\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\mirma\Desktop\UdamyCourse\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\mirma\Desktop\UdamyCourse\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

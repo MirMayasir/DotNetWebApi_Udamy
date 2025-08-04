@@ -28,19 +28,7 @@ namespace UdamyCourse.Controllers
         {
             var regions = await _regionRepository.GetAllAsync();
 
-            //var regionDto = new List<RegionDto>();
-            //foreach (var region in regions)
-            //{
-            //    regionDto.Add(new RegionDto()
-            //    {
-            //        Id = region.Id,
-            //        Code = region.Code,
-            //        Name = region.Name,
-            //        RegionImageUrl = region.RegionImageUrl
-            //    });
-            //}
-
-            var regionDto = _mapper.Map<List<RegionDto>>(regions);
+             var regionDto = _mapper.Map<List<RegionDto>>(regions);
             return Ok(regionDto);
 
         }
@@ -96,13 +84,7 @@ namespace UdamyCourse.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateRegion(int id, [FromBody] AddRegionDto addRegionDto)
         {
-            //var region = new Region
-            //{
-            //    Code = addRegionDto.Code,
-            //    Name= addRegionDto.Name,
-            //    RegionImageUrl = addRegionDto.RegionImageUrl
-
-            //};
+           
 
             var region = _mapper.Map<Region>(addRegionDto);
 
@@ -114,13 +96,6 @@ namespace UdamyCourse.Controllers
                 return NotFound();
             }
 
-            //var regionDto = new RegionDto()
-            //{
-            //    Id = region.Id,
-            //    Code = region.Code,
-            //    Name = region.Name,
-            //    RegionImageUrl = region.RegionImageUrl
-            //};
 
             var regionDto = _mapper.Map<RegionDto>(region);
 

@@ -21,6 +21,7 @@ namespace UdamyCourse
             builder.Services.AddDbContext<DataBaseContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<IRegionRepository, SQLRegionRepositoty>();
+            builder.Services.AddScoped<IWalkRepository, WalkReposotory>();  
             builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
             var app = builder.Build();

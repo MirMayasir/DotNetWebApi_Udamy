@@ -105,6 +105,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "UdamyCourse.Controllers.WalksController",
+    "Method": "AddWalk",
+    "RelativePath": "api/Walks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addWalkDto",
+        "Type": "UdamyCourse.Model.DTOs.AddWalkDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UdamyCourse.Controllers.WalksController",
+    "Method": "GetWalks",
+    "RelativePath": "api/Walks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UdamyCourse.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

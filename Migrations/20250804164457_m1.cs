@@ -1,12 +1,13 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
+
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
 namespace UdamyCourse.Migrations
 {
     /// <inheritdoc />
-    public partial class firstmigration : Migration
+    public partial class m1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -43,42 +44,69 @@ namespace UdamyCourse.Migrations
                 name: "Walks",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LengthInKm = table.Column<double>(type: "float", nullable: false),
                     WalkImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DifficultyId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    RegionId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    DifficultyId1 = table.Column<int>(type: "int", nullable: false),
-                    RegionId1 = table.Column<int>(type: "int", nullable: false)
+                    DifficultyId = table.Column<int>(type: "int", nullable: false),
+                    RegionId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Walks", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Walks_Difficulties_DifficultyId1",
-                        column: x => x.DifficultyId1,
+                        name: "FK_Walks_Difficulties_DifficultyId",
+                        column: x => x.DifficultyId,
                         principalTable: "Difficulties",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Walks_Regions_RegionId1",
-                        column: x => x.RegionId1,
+                        name: "FK_Walks_Regions_RegionId",
+                        column: x => x.RegionId,
                         principalTable: "Regions",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Walks_DifficultyId1",
+            migrationBuilder.InsertData(
+                table: "Difficulties",
+                columns: new[] { "Id", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Easy" },
+                    { 2, "Medium" },
+                    { 3, "Hard" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Regions",
+                columns: new[] { "Id", "Code", "Name", "RegionImageUrl" },
+                values: new object[,]
+                {
+                    { 1, "IND", "India", "https://example.com/india.jpg" },
+                    { 2, "USA", "United States", "https://example.com/usa.jpg" }
+                });
+
+            migrationBuilder.InsertData(
                 table: "Walks",
-                column: "DifficultyId1");
+                columns: new[] { "Id", "Description", "DifficultyId", "LengthInKm", "Name", "RegionId", "WalkImageUrl" },
+                values: new object[,]
+                {
+                    { 1, "A peaceful walk during sunset.", 1, 4.2000000000000002, "Sunset Trail", 1, "https://example.com/sunset.jpg" },
+                    { 2, "Challenging walk up the mountain.", 3, 8.6999999999999993, "Mountain Climb", 2, "https://example.com/mountain.jpg" }
+                });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Walks_RegionId1",
+                name: "IX_Walks_DifficultyId",
                 table: "Walks",
-                column: "RegionId1");
+                column: "DifficultyId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Walks_RegionId",
+                table: "Walks",
+                column: "RegionId");
         }
 
         /// <inheritdoc />
