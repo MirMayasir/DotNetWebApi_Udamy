@@ -19,9 +19,54 @@ namespace UdamyCourse.Repositories
             return walk;
         }
 
+        public async Task<Walk> DeleteWalkAsync(int id)
+        {
+            var currWalk = await _dataBaseContext.Walks.FirstOrDefaultAsync(x => x.Id == id);
+            if(currWalk == null)
+            {
+                return null;
+            }
+
+            _dataBaseContext.Walks.Remove(currWalk);
+            await _dataBaseContext.SaveChangesAsync();
+            return currWalk;
+        }
+
         public async Task<List<Walk>> GetAllAsync()
         {
-            return await _dataBaseContext.Walks.ToListAsync();
+            return await _dataBaseContext.Walks.Include("Difficulty").Include("Region").ToListAsync();
+        }
+
+        public async Task<Walk> GetWalByIdAsync(int id)
+        {
+            var walk = await _dataBaseContext.Walks.Include("Difficulty").Include("Region").FirstOrDefaultAsync(x => x.Id == id);
+            if (walk == null)
+            {
+                return null;
+            }
+
+            return walk;
+        }
+
+        public async Task<Walk> UpdateWalkAsync(Walk walk, int id)
+        {
+            var currentWalk = await _dataBaseContext.Walks.FirstOrDefaultAsync(x=> x.Id == id);
+            if(currentWalk == null)
+            {
+                return null;
+            }
+
+            currentWalk.Name = walk.Name;
+            currentWalk.Description = walk.Description;
+            currentWalk.WalkImageUrl = walk.WalkImageUrl;
+            currentWalk.DifficultyId = walk.DifficultyId;
+            currentWalk.LengthInKm = walk.LengthInKm;
+            currentWalk.RegionId = walk.RegionId;
+
+            await _dataBaseContext.SaveChangesAsync();
+            return currentWalk;
+
+
         }
     }
 }

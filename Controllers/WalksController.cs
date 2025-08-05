@@ -42,5 +42,40 @@ namespace UdamyCourse.Controllers
             var walkDtos = _mapper.Map<List<WalkDto>>(walks);
             return Ok(walkDtos);
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var walk = await _walkRepository.GetWalByIdAsync(id);
+
+            var walkDto = _mapper.Map<WalkDto>(walk);
+            return Ok(walkDto);
+        }
+
+        [HttpPut("{id}")]
+
+        public async Task<IActionResult> updateWalk([FromBody] AddWalkDto addWalkDto, int id)
+        {
+            var curWalk = _mapper.Map<Walk>(addWalkDto);
+            curWalk = await _walkRepository.UpdateWalkAsync(curWalk, id);
+            if(curWalk == null)
+            {
+                return BadRequest();
+            }
+
+            return Ok(_mapper.Map<Walk>(curWalk));
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> deleteWalk(int id)
+        {
+            var currWalk = await _walkRepository.DeleteWalkAsync(id);
+            if(currWalk == null)
+            {
+                return NotFound();
+            }
+
+            return NoContent();
+        }
     }
 }

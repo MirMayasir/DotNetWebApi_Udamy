@@ -1,4 +1,6 @@
-﻿namespace UdamyCourse.Model.DTOs
+﻿using Microsoft.Identity.Client;
+
+namespace UdamyCourse.Model.DTOs
 {
     public class WalkDto
     {
@@ -9,8 +11,11 @@
 
         public string? WalkImageUrl { get; set; }
 
-        public int DifficultyId { get; set; }
+        //public int DifficultyId { get; set; }
 
-        public int RegionId { get; set; }
+        //public int RegionId { get; set; }
+
+        public RegionDto Region { get; set; }
+        public DifficultyDto Difficulty { get; set; }
     }
 }

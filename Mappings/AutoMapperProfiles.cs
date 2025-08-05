@@ -12,6 +12,8 @@ namespace UdamyCourse.Mappings
             CreateMap<AddRegionDto, Region>().ReverseMap();
             CreateMap<AddWalkDto, Walk>().ReverseMap();
             CreateMap<Walk, WalkDto>().ReverseMap();
+       
+            CreateMap<DifficultyDto, Difficulty>().ReverseMap();
         }
     }
 }
