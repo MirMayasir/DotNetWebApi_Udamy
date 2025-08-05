@@ -60,22 +60,21 @@ namespace UdamyCourse.Controllers
 
         public async Task<IActionResult> AddRegion([FromBody] AddRegionDto addRegionDto)
         {
+            if (ModelState.IsValid)
+            {
+                var region = _mapper.Map<Region>(addRegionDto);
 
-            var region = _mapper.Map<Region>(addRegionDto);
+                region = await _regionRepository.CreateRegionAsync(region);
+                var regionDto = _mapper.Map<RegionDto>(region);
 
-            region = await _regionRepository.CreateRegionAsync(region);
+                return CreatedAtAction(nameof(GetRegionById), new { id = region.Id }, regionDto);
 
-            //var regionDto = new RegionDto()
-            //{
-            //    Id = region.Id,
-            //    Code = region.Code,
-            //    Name = region.Name,
-            //    RegionImageUrl = region.RegionImageUrl
-            //};
-
-            var regionDto = _mapper.Map<RegionDto>(region); 
-
-            return CreatedAtAction(nameof(GetRegionById), new { id = region.Id }, regionDto);
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+            
 
 
 
@@ -84,22 +83,30 @@ namespace UdamyCourse.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateRegion(int id, [FromBody] AddRegionDto addRegionDto)
         {
-           
 
-            var region = _mapper.Map<Region>(addRegionDto);
-
-            region = await _regionRepository.UpdateReginAsync(region, id);
-
-
-            if (region == null)
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                var region = _mapper.Map<Region>(addRegionDto);
+
+                region = await _regionRepository.UpdateReginAsync(region, id);
+
+
+                if (region == null)
+                {
+                    return NotFound();
+                }
+
+
+                var regionDto = _mapper.Map<RegionDto>(region);
+
+                return Ok(regionDto);
+
             }
-
-
-            var regionDto = _mapper.Map<RegionDto>(region);
-
-            return Ok(regionDto);
+            else
+            {
+                return BadRequest(ModelState);
+            }
+            
         }
 
 

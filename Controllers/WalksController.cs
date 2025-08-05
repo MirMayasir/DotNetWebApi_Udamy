@@ -26,13 +26,22 @@ namespace UdamyCourse.Controllers
         [HttpPost]
         public async Task<IActionResult> AddWalk([FromBody] AddWalkDto addWalkDto)
         {
-            var walk = _mapper.Map<Walk>(addWalkDto);
+            if ((ModelState.IsValid))
+            {
+                var walk = _mapper.Map<Walk>(addWalkDto);
 
-            await _walkRepository.CreatWalkAsync(walk);
+                await _walkRepository.CreatWalkAsync(walk);
 
-            var walkDto = _mapper.Map<WalkDto>(walk);
+                var walkDto = _mapper.Map<WalkDto>(walk);
 
-            return Ok();
+                return Ok();
+
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+            
         }
 
         [HttpGet]
@@ -56,14 +65,23 @@ namespace UdamyCourse.Controllers
 
         public async Task<IActionResult> updateWalk([FromBody] AddWalkDto addWalkDto, int id)
         {
-            var curWalk = _mapper.Map<Walk>(addWalkDto);
-            curWalk = await _walkRepository.UpdateWalkAsync(curWalk, id);
-            if(curWalk == null)
+            if ((ModelState.IsValid))
             {
-                return BadRequest();
-            }
+                var curWalk = _mapper.Map<Walk>(addWalkDto);
+                curWalk = await _walkRepository.UpdateWalkAsync(curWalk, id);
+                if (curWalk == null)
+                {
+                    return BadRequest();
+                }
 
-            return Ok(_mapper.Map<Walk>(curWalk));
+                return Ok(_mapper.Map<Walk>(curWalk));
+
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+            
         }
 
         [HttpDelete("{id}")]
