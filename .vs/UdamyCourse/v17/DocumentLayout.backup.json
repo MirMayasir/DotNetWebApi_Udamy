@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\addregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\addregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\repositories\\walkreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:repositories\\walkreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\difficultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\difficultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\addwalkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\addwalkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\addregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\addregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +63,153 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WalkReposotory.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\WalkReposotory.cs",
+              "RelativeDocumentMoniker": "Repositories\\WalkReposotory.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\WalkReposotory.cs",
+              "RelativeToolTip": "Repositories\\WalkReposotory.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAtwCYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T06:21:06.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IWalkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\IWalkRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IWalkRepository.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\IWalkRepository.cs",
+              "RelativeToolTip": "Repositories\\IWalkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T06:20:11.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Region.cs",
+              "RelativeDocumentMoniker": "Model\\Domain\\Region.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Region.cs",
+              "RelativeToolTip": "Model\\Domain\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:47:12.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Walk.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Walk.cs",
+              "RelativeDocumentMoniker": "Model\\Domain\\Walk.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Walk.cs",
+              "RelativeToolTip": "Model\\Domain\\Walk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:47:10.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Difficulty.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Difficulty.cs",
+              "RelativeDocumentMoniker": "Model\\Domain\\Difficulty.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Difficulty.cs",
+              "RelativeToolTip": "Model\\Domain\\Difficulty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:47:07.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DifficultyDto.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\DifficultyDto.cs",
+              "RelativeDocumentMoniker": "Model\\DTOs\\DifficultyDto.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\DifficultyDto.cs",
+              "RelativeToolTip": "Model\\DTOs\\DifficultyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:57:56.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WalkDto.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\WalkDto.cs",
+              "RelativeDocumentMoniker": "Model\\DTOs\\WalkDto.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\WalkDto.cs",
+              "RelativeToolTip": "Model\\DTOs\\WalkDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:57:09.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddWalkDto.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\AddWalkDto.cs",
+              "RelativeDocumentMoniker": "Model\\DTOs\\AddWalkDto.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\AddWalkDto.cs",
+              "RelativeToolTip": "Model\\DTOs\\AddWalkDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:54:15.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WalksController.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\WalksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WalksController.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\WalksController.cs",
+              "RelativeToolTip": "Controllers\\WalksController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:53:09.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegionDto.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\RegionDto.cs",
+              "RelativeDocumentMoniker": "Model\\DTOs\\RegionDto.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\RegionDto.cs",
+              "RelativeToolTip": "Model\\DTOs\\RegionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:52:21.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AddRegionDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\AddRegionDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\AddRegionDto.cs",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\AddRegionDto.cs",
               "RelativeToolTip": "Model\\DTOs\\AddRegionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T09:40:24.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T09:40:24.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "RegionsController.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegionsController.cs",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "Controllers\\RegionsController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwEoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T09:39:41.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-05T09:39:41.087Z"
             }
           ]
         }

@@ -198,6 +198,22 @@
         "tags": [
           "Walks"
         ],
+        "parameters": [
+          {
+            "name": "filterOn",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filterQuery",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -356,23 +372,33 @@
         "additionalProperties": false
       },
       "AddWalkDto": {
+        "required": [
+          "description",
+          "difficultyId",
+          "lengthInKm",
+          "name",
+          "regionId",
+          "walkImageUrl"
+        ],
         "type": "object",
         "properties": {
           "name": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 100,
+            "minLength": 5,
+            "type": "string"
           },
           "description": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 30,
+            "minLength": 7,
+            "type": "string"
           },
           "lengthInKm": {
             "type": "number",
             "format": "double"
           },
           "walkImageUrl": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "difficultyId": {
             "type": "integer",

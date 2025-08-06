@@ -45,9 +45,9 @@ namespace UdamyCourse.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetWalks()
+        public async Task<IActionResult> GetWalks([FromQuery] string? filterOn, [FromQuery] string? filterQuery)
         {
-            var walks = await _walkRepository.GetAllAsync();
+            var walks = await _walkRepository.GetAllAsync(filterOn, filterQuery);
             var walkDtos = _mapper.Map<List<WalkDto>>(walks);
             return Ok(walkDtos);
         }
