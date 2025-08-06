@@ -5,7 +5,9 @@ namespace UdamyCourse.Repositories
     public interface IWalkRepository
     {
         Task<Walk> CreatWalkAsync(Walk walk);
-        Task<List<Walk>> GetAllAsync(string? filterOn=null, string? filterQuery=null);
+        Task<List<Walk>> GetAllAsync(string? filterOn = null, string? filterQuery = null,
+            string? sotyBy = null, bool isAscending = true,
+            int pageNumber = 1, int pageSize = 1000);
 
         Task<Walk> GetWalByIdAsync(int id);
 

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\repositories\\walkreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:repositories\\walkreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\repositories\\walkreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:repositories\\walkreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udamycourse\\model\\dtos\\difficultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,17 +58,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WalkReposotory.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\WalkReposotory.cs",
               "RelativeDocumentMoniker": "Repositories\\WalkReposotory.cs",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\WalkReposotory.cs",
               "RelativeToolTip": "Repositories\\WalkReposotory.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAtwCYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T06:21:06.177Z",
               "EditorCaption": ""
@@ -81,14 +81,14 @@
               "RelativeDocumentMoniker": "Repositories\\IWalkRepository.cs",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Repositories\\IWalkRepository.cs",
               "RelativeToolTip": "Repositories\\IWalkRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-06T06:20:11.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Region.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Region.cs",
               "RelativeDocumentMoniker": "Model\\Domain\\Region.cs",
@@ -96,12 +96,11 @@
               "RelativeToolTip": "Model\\Domain\\Region.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T05:47:12.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T05:47:12.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Walk.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Walk.cs",
               "RelativeDocumentMoniker": "Model\\Domain\\Walk.cs",
@@ -109,12 +108,11 @@
               "RelativeToolTip": "Model\\Domain\\Walk.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T05:47:10.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T05:47:10.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Difficulty.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\Domain\\Difficulty.cs",
               "RelativeDocumentMoniker": "Model\\Domain\\Difficulty.cs",
@@ -122,8 +120,7 @@
               "RelativeToolTip": "Model\\Domain\\Difficulty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T05:47:07.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T05:47:07.487Z"
             },
             {
               "$type": "Document",
@@ -139,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "WalkDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Model\\DTOs\\WalkDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\WalkDto.cs",
@@ -164,13 +161,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WalksController.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\WalksController.cs",
               "RelativeDocumentMoniker": "Controllers\\WalksController.cs",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\Controllers\\WalksController.cs",
               "RelativeToolTip": "Controllers\\WalksController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwDEAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDMAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T09:53:09.373Z",
               "EditorCaption": ""
