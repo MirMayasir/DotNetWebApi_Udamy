@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jOr8dhOj4c=",
+  "dgSpecHash": "KinoNfROioM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\UdamyCourse.csproj",
+  "projectFilePath": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\UdamyCourse.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mirma\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\mirma\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mirma\\Desktop\\UdamyCourse\\UdamyCourse.csproj": {}
+    "C:\\Users\\mirma\\Desktop\\UdemyCourse\\UdamyCourse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mirma\\Desktop\\UdamyCourse\\UdamyCourse.csproj": {
+    "C:\\Users\\mirma\\Desktop\\UdemyCourse\\UdamyCourse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\UdamyCourse.csproj",
+        "projectUniqueName": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\UdamyCourse.csproj",
         "projectName": "UdamyCourse",
-        "projectPath": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\UdamyCourse.csproj",
+        "projectPath": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\UdamyCourse.csproj",
         "packagesPath": "C:\\Users\\mirma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mirma\\Desktop\\UdamyCourse\\obj\\",
+        "outputPath": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
