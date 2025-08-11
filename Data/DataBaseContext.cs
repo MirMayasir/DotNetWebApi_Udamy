@@ -5,7 +5,7 @@ namespace UdamyCourse.Data
 {
     public class DataBaseContext: DbContext
     {
-        public DataBaseContext(DbContextOptions options): base(options)
+        public DataBaseContext(DbContextOptions<DataBaseContext> options): base(options)
         {
         }
         public DbSet<Region> Regions { get; set; }
