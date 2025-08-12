@@ -12,7 +12,7 @@ namespace UdamyCourse.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class RegionsController : ControllerBase
     {
         private readonly DataBaseContext _dbContext;
@@ -26,6 +26,7 @@ namespace UdamyCourse.Controllers
             _mapper = mapper;
         }
         [HttpGet]
+        [Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetRegions()
         {
             var regions = await _regionRepository.GetAllAsync();
@@ -36,6 +37,7 @@ namespace UdamyCourse.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "Reader")]
 
         public async Task<IActionResult> GetRegionById(int id)
         {
@@ -59,7 +61,7 @@ namespace UdamyCourse.Controllers
         }
 
         [HttpPost]
-
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> AddRegion([FromBody] AddRegionDto addRegionDto)
         {
             if (ModelState.IsValid)
@@ -81,7 +83,7 @@ namespace UdamyCourse.Controllers
 
 
         }
-
+        [Authorize(Roles = "Writer")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateRegion(int id, [FromBody] AddRegionDto addRegionDto)
         {
@@ -111,7 +113,7 @@ namespace UdamyCourse.Controllers
             
         }
 
-
+        [Authorize(Roles = "Writer")]
         [HttpDelete("{id}")]
         public async Task<IActionResult>  deleteRegion(int id)
         {

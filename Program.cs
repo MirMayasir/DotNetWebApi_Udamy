@@ -29,7 +29,8 @@ namespace UdamyCourse
                 options.UseSqlServer(builder.Configuration.GetConnectionString("AuthConnectionString")));
 
             builder.Services.AddScoped<IRegionRepository, SQLRegionRepositoty>();
-            builder.Services.AddScoped<IWalkRepository, WalkReposotory>();  
+            builder.Services.AddScoped<IWalkRepository, WalkReposotory>();
+            builder.Services.AddScoped<ITokenRepository, TokenRepositort>();
             builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
             builder.Services.AddIdentityCore<IdentityUser>()
