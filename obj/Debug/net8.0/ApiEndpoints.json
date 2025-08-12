@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "UdamyCourse.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequestDto",
+        "Type": "UdamyCourse.Model.DTOs.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "UdamyCourse.Controllers.ProductController",
     "Method": "GetAll",
     "RelativePath": "api/Product",

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\model\\dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +21,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mirma\\Desktop\\UdemyCourse\\Migrations\\AuthDb\\20250811183324_creating auth database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AuthDb\\20250811183324_creating auth database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\model\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\model\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\repositories\\walkreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,18 +63,6 @@
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\model\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\model\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\model\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\model\\dtos\\difficultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\dtos\\difficultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,71 +86,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataBaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Data\\DataBaseContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataBaseContext.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Data\\DataBaseContext.cs",
-              "RelativeToolTip": "Data\\DataBaseContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA+wCkAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T11:24:20.085Z"
+              "WhenOpened": "2025-08-11T18:56:30.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\DTOs\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "Model\\DTOs\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\DTOs\\RegisterRequestDto.cs",
+              "RelativeToolTip": "Model\\DTOs\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:54:52.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250811183324_creating auth database.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Migrations\\AuthDb\\20250811183324_creating auth database.cs",
+              "RelativeDocumentMoniker": "Migrations\\AuthDb\\20250811183324_creating auth database.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Migrations\\AuthDb\\20250811183324_creating auth database.cs",
+              "RelativeToolTip": "Migrations\\AuthDb\\20250811183324_creating auth database.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:33:24.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Data\\AuthDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AuthDbContext.cs",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Data\\AuthDbContext.cs",
               "RelativeToolTip": "Data\\AuthDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T11:20:33.032Z"
+              "WhenOpened": "2025-08-11T11:20:33.032Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAywCQAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswC8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T10:56:01.42Z"
+              "WhenOpened": "2025-08-07T10:56:01.42Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Walk.cs",
-              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\Domain\\Walk.cs",
-              "RelativeDocumentMoniker": "Model\\Domain\\Walk.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\Domain\\Walk.cs",
-              "RelativeToolTip": "Model\\Domain\\Walk.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T05:47:10.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Difficulty.cs",
-              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\Domain\\Difficulty.cs",
-              "RelativeDocumentMoniker": "Model\\Domain\\Difficulty.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\Domain\\Difficulty.cs",
-              "RelativeToolTip": "Model\\Domain\\Difficulty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T05:47:07.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DifficultyDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\DTOs\\DifficultyDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\DifficultyDto.cs",
@@ -154,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "WalkDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\DTOs\\WalkDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\WalkDto.cs",
@@ -166,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "RegionsController.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegionsController.cs",
@@ -178,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "WalkReposotory.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\WalkReposotory.cs",
               "RelativeDocumentMoniker": "Repositories\\WalkReposotory.cs",
@@ -190,19 +203,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-07T10:36:44.902Z"
+              "WhenOpened": "2025-08-07T10:36:44.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
+              "Title": "Difficulty.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\Domain\\Difficulty.cs",
+              "RelativeDocumentMoniker": "Model\\Domain\\Difficulty.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\Domain\\Difficulty.cs",
+              "RelativeToolTip": "Model\\Domain\\Difficulty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:37:50.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Region.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\Domain\\Region.cs",
               "RelativeDocumentMoniker": "Model\\Domain\\Region.cs",
@@ -215,6 +241,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Data\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataBaseContext.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Data\\DataBaseContext.cs",
+              "RelativeToolTip": "Data\\DataBaseContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:24:20.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UdamyCourse.csproj",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\UdamyCourse.csproj",
               "RelativeDocumentMoniker": "UdamyCourse.csproj",
@@ -226,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "AddWalkDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\DTOs\\AddWalkDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\AddWalkDto.cs",
@@ -238,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "IWalkRepository.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\IWalkRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IWalkRepository.cs",
@@ -250,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "WalksController.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\WalksController.cs",
               "RelativeDocumentMoniker": "Controllers\\WalksController.cs",
@@ -262,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "RegionDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\DTOs\\RegionDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\RegionDto.cs",
@@ -274,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "AddRegionDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\DTOs\\AddRegionDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\AddRegionDto.cs",
