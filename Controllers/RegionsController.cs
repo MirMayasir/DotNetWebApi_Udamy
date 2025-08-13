@@ -18,17 +18,20 @@ namespace UdamyCourse.Controllers
         private readonly DataBaseContext _dbContext;
         private readonly IRegionRepository _regionRepository;
         private readonly IMapper _mapper;
+        private readonly ILogger logger;
 
-        public RegionsController(DataBaseContext dbContext, IRegionRepository regionRepository, IMapper mapper)
+        public RegionsController(DataBaseContext dbContext, IRegionRepository regionRepository, IMapper mapper, ILogger<RegionsController> logger)
         {
             _dbContext = dbContext;
             _regionRepository = regionRepository;
             _mapper = mapper;
+            this.logger = logger;
         }
         [HttpGet]
-        [Authorize(Roles = "Reader")]
+        //[Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetRegions()
         {
+            logger.LogInformation("GetRegions method called");
             var regions = await _regionRepository.GetAllAsync();
 
              var regionDto = _mapper.Map<List<RegionDto>>(regions);

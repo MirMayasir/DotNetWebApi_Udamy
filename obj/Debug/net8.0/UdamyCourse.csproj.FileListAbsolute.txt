@@ -529,3 +529,16 @@ C:\Users\mirma\Desktop\UdemyCourse\obj\Debug\net8.0\refint\UdamyCourse.dll
 C:\Users\mirma\Desktop\UdemyCourse\obj\Debug\net8.0\UdamyCourse.pdb
 C:\Users\mirma\Desktop\UdemyCourse\obj\Debug\net8.0\UdamyCourse.genruntimeconfig.cache
 C:\Users\mirma\Desktop\UdemyCourse\obj\Debug\net8.0\ref\UdamyCourse.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Serilog.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\mirma\Desktop\UdemyCourse\bin\Debug\net8.0\Serilog.Sinks.File.dll

@@ -49,8 +49,10 @@ namespace UdamyCourse.Controllers
             [FromQuery] string? sortBy, [FromQuery] bool? isAscending,
             [FromQuery] int pageNumber=1, [FromQuery] int pageSize = 1000)
         {
+            
             var walks = await _walkRepository.GetAllAsync(filterOn, filterQuery, sortBy, isAscending??true, pageNumber, pageSize);
             var walkDtos = _mapper.Map<List<WalkDto>>(walks);
+            throw new Exception("UNHANDELLED EXCEPTION");
             return Ok(walkDtos);
         }
 

@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\model\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:model\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|c:\\users\\mirma\\desktop\\udemycourse\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6CA4F0-3915-4078-BD48-97A447650B95}|UdamyCourse.csproj|solutionrelative:controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,46 +62,72 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WalksController.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\WalksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WalksController.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\WalksController.cs",
+              "RelativeToolTip": "Controllers\\WalksController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T14:33:02.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwD4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T14:29:45.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T14:29:31.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T14:17:08.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAQwFgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T09:55:57.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ImageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\ImageRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ImageRepository.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\ImageRepository.cs",
-              "RelativeToolTip": "Repositories\\ImageRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBcAAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T06:55:11.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IImageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\IImageRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IImageRepository.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\IImageRepository.cs",
-              "RelativeToolTip": "Repositories\\IImageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T06:54:17.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ImageUploadRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\DTOs\\ImageUploadRequestDto.cs",
               "RelativeDocumentMoniker": "Model\\DTOs\\ImageUploadRequestDto.cs",
@@ -98,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ImagesController.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\ImagesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ImagesController.cs",
@@ -111,7 +153,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "RegionsController.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\RegionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegionsController.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\RegionsController.cs",
+              "RelativeToolTip": "Controllers\\RegionsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBYAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T10:23:39.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IImageRepository.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\IImageRepository.cs",
+              "RelativeToolTip": "Repositories\\IImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:54:17.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DataBaseContext.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Data\\DataBaseContext.cs",
               "RelativeDocumentMoniker": "Data\\DataBaseContext.cs",
@@ -124,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Image.cs",
               "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Model\\Domain\\Image.cs",
               "RelativeDocumentMoniker": "Model\\Domain\\Image.cs",
@@ -137,15 +205,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegionsController.cs",
-              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\RegionsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RegionsController.cs",
-              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Controllers\\RegionsController.cs",
-              "RelativeToolTip": "Controllers\\RegionsController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAowG8AAAANAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ImageRepository.cs",
+              "ToolTip": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\Repositories\\ImageRepository.cs",
+              "RelativeToolTip": "Repositories\\ImageRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBcAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T10:23:39.132Z",
+              "WhenOpened": "2025-08-13T06:55:11.1Z",
               "EditorCaption": ""
             }
           ]

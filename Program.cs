@@ -2,10 +2,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
+using Serilog;
 using System.Text;
 using UdamyCourse.Data;
 using UdamyCourse.Mappings;
+using UdamyCourse.Middlewares;
 using UdamyCourse.Repositories;
 
 namespace UdamyCourse
@@ -17,6 +20,13 @@ namespace UdamyCourse
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            var logger = new LoggerConfiguration()
+                .WriteTo.Console()
+                .MinimumLevel.Information()
+                .CreateLogger();
+
+            builder.Logging.ClearProviders();
+            builder.Logging.AddSerilog(logger);
 
             builder.Services.AddControllers();
             builder.Services.AddHttpContextAccessor();
@@ -76,10 +86,17 @@ namespace UdamyCourse
                 app.UseSwaggerUI();
             }
 
+            app.UseMiddleware<ExceptionHandlerMiddleware>();
+
             app.UseHttpsRedirection();
             app.UseAuthentication();
 
             app.UseAuthorization();
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Images")),
+                RequestPath = "/Images"
+            });
 
 
             app.MapControllers();
