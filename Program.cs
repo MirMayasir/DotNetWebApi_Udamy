@@ -19,6 +19,7 @@ namespace UdamyCourse
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddHttpContextAccessor();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -31,6 +32,7 @@ namespace UdamyCourse
             builder.Services.AddScoped<IRegionRepository, SQLRegionRepositoty>();
             builder.Services.AddScoped<IWalkRepository, WalkReposotory>();
             builder.Services.AddScoped<ITokenRepository, TokenRepositort>();
+            builder.Services.AddScoped<IImageRepository, ImageRepository>();
             builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
             builder.Services.AddIdentityCore<IdentityUser>()
