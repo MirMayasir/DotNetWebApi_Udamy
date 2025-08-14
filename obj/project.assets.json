@@ -5779,11 +5779,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\UdamyCourse.csproj",
+      "projectUniqueName": "C:\\Users\\mirma\\Desktop\\Udemy\\Api\\UdamyCourse.csproj",
       "projectName": "UdamyCourse",
-      "projectPath": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\UdamyCourse.csproj",
+      "projectPath": "C:\\Users\\mirma\\Desktop\\Udemy\\Api\\UdamyCourse.csproj",
       "packagesPath": "C:\\Users\\mirma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mirma\\Desktop\\UdemyCourse\\obj\\",
+      "outputPath": "C:\\Users\\mirma\\Desktop\\Udemy\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

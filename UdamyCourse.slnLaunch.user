@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "UdamyCourse.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "..\\Frontend\\Frontend.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
